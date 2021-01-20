@@ -1,0 +1,14 @@
+subject\RegisterCompleted.class
+subject\StudentApplication.class
+subject\StudentRegistered.class
+subject\AbstractEvent$1.class
+subject\StudentRepository.class
+subject\AbstractEvent.class
+subject\config\kafka\KafkaProcessor.class
+subject\Student.class
+subject\StudentController.class
+subject\RegisterCancelled.class
+subject\Cancelled.class
+subject\PolicyHandler.class
+subject\external\Registration.class
+subject\external\RegistrationService.class

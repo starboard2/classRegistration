@@ -1,0 +1,11 @@
+subject\RegisterCompleted.class
+subject\AbstractEvent.class
+subject\config\kafka\KafkaProcessor.class
+subject\ClassRegistered.class
+subject\SubjectRepository.class
+subject\RegisterCancelled.class
+subject\SubjectApplication.class
+subject\SubjectController.class
+subject\PolicyHandler.class
+subject\AbstractEvent$1.class
+subject\Subject.class
