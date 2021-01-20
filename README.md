@@ -223,6 +223,7 @@ product 상품 등록
    kubectl autoscale deployment order --cpu-percent=10 --min=1 --max=10
 
 ![image](https://user-images.githubusercontent.com/75401961/105156323-063ae880-5b4f-11eb-9db9-1de6b8eab9c7.png)
+![image](https://user-images.githubusercontent.com/75401961/105174161-7b191d00-5b65-11eb-9f2b-dd00bb92fc12.png)
 
  - AutoScale적용 후 seige를 통해서 부하 테스트 시  order pod 개수가 증가함
 
