@@ -58,13 +58,13 @@
 
 
 ### 완성된 1차 모형
-![image](https://user-images.githubusercontent.com/75401920/104998076-f9929380-5a6d-11eb-8ac9-1ba95cea971f.png)
+![image](https://user-images.githubusercontent.com/75401961/105137047-0e3a5e80-5b36-11eb-9daf-ff450041fbc8.png)
 
     - View Model 추가
 
 ### 1차 완성본에 대한 기능적/비기능적 요구사항을 커버하는지 검증
 
-![image](https://user-images.githubusercontent.com/75401920/104998395-7b82bc80-5a6e-11eb-905f-1a3675837500.png)
+![image](https://user-images.githubusercontent.com/75401961/105137370-84d75c00-5b36-11eb-83c4-a867ab1b15cc.png)
 
     - 고객이 상품을 선택하여 주문한다 (ok)
     - 주문하면 결제가 동시에 이뤄진다. (ok)
@@ -72,7 +72,7 @@
     - 결제가 이뤄지면 상품재고가 감소한다. (ok)
     - 배송이 요청되고 배송이 시작되면 주문상태가 배송시작으로 변경된다. (ok)
 
-![image](https://user-images.githubusercontent.com/75401920/104998646-ecc26f80-5a6e-11eb-88a2-6ff3c1eaf7f6.png)
+![image](https://user-images.githubusercontent.com/75401961/105137421-9ae51c80-5b36-11eb-8dd4-ff8e51066adf.png)
 
     - 고객이 주문을 취소할 수 있다 (ok)
     - 주문이 취소되면 결제가 취소된다 (ok)
