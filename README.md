@@ -103,49 +103,67 @@
 
 1,3. 주문->결제->배송->주문 캡쳐
 
-
+등록(subject)
 ![image](https://user-images.githubusercontent.com/75401961/105138224-f19f2600-5b37-11eb-970c-aa55eb18f3f5.png)
 
- - 수강 신청
-
+등록(stdent)
 ![image](https://user-images.githubusercontent.com/75401961/105142752-4e054400-5b3e-11eb-99eb-df3ed4f757ea.png)
+
+student
 ![image](https://user-images.githubusercontent.com/75401961/105143181-d4218a80-5b3e-11eb-91e1-22f385e583db.png)
+
+registration
+![image](https://user-images.githubusercontent.com/75401961/105143293-fe734800-5b3e-11eb-8ab7-9740dffa9d71.png)
+
+mypage
+![image](https://user-images.githubusercontent.com/75401961/105143415-29f63280-5b3f-11eb-926f-dc225003d600.png)
+
+Subject
+![image](https://user-images.githubusercontent.com/75401961/105143719-8d806000-5b3f-11eb-8c8d-9bfb21d22d38.png)
+
+
+취소(Student)
+![image](https://user-images.githubusercontent.com/75401961/105143888-cb7d8400-5b3f-11eb-902b-197796845ad3.png)
+
+student
+![image](https://user-images.githubusercontent.com/75401961/105144013-f8319b80-5b3f-11eb-8c5d-9a2b2f197237.png)
+
+registration
+![image](https://user-images.githubusercontent.com/75401961/105144072-0aabd500-5b40-11eb-9b63-c2fd78154769.png)
+
+mypage
+![image](https://user-images.githubusercontent.com/75401961/105144115-18f9f100-5b40-11eb-984b-93f20e539582.png)
+
+Subject
+![image](https://user-images.githubusercontent.com/75401961/105144211-3e86fa80-5b40-11eb-8d26-edc79700d5cc.png)
+
+
+
 
  - 주문 등록 후 주문내역 조회 시 배송상태 변경됨 
 
-![image](https://user-images.githubusercontent.com/75401920/105001784-a3c0ea00-5a73-11eb-9c83-1d504502bca3.png)
 
  - 주문 등록 후 결제 내역 조회
 
-![image](https://user-images.githubusercontent.com/75401920/105001881-c81cc680-5a73-11eb-8b94-c25d03309a84.png)
 
  - 재고변경
 
-![image](https://user-images.githubusercontent.com/75401920/105002205-3e212d80-5a74-11eb-9d3a-469df1f27d49.png)
 
  - 주문취소
 
-![image](https://user-images.githubusercontent.com/75401920/105002335-6dd03580-5a74-11eb-860d-66d4062bd18f.png)
 
  - 주문취소 시 결제 취소 반영됨
 
-![image](https://user-images.githubusercontent.com/75401920/105002401-95270280-5a74-11eb-89c9-069db87220e6.png)
 
  - 결제취소시 배송 취소
  
-![image](https://user-images.githubusercontent.com/75401920/105002466-acfe8680-5a74-11eb-91ba-bc04509a8b10.png)
 
 
 2. 마이페이지 조회
 
-![image](https://user-images.githubusercontent.com/75401920/105002605-e8995080-5a74-11eb-99ad-15cdb20324ad.png)
 
 
 3. 결제서비스 장애 시 주문 불가
-
-![image](https://user-images.githubusercontent.com/75401920/105002912-52b1f580-5a75-11eb-8ce0-b661fbbcc1d3.png)
-
-
 
    
 
