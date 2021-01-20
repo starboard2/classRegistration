@@ -189,7 +189,7 @@ product 상품 등록
 
 
 
-7. Istio 적용 캡쳐
+### 7. Istio 적용 캡쳐
 
   - Istio테스트를 위해서 Payment에 sleep 추가
   
@@ -215,7 +215,7 @@ product 상품 등록
 
 ![image](https://user-images.githubusercontent.com/75401920/105006958-b2f76600-5a7a-11eb-99f3-c8b81a4ec270.png)
 
-8. AutoScale
+### 8. AutoScale
 
    
  - AutoScale 적용된 모습
@@ -230,7 +230,7 @@ product 상품 등록
 
 
 
-9. Readness Proobe
+### 9. Readness Proobe
 
 
 
