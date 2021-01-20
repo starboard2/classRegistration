@@ -98,9 +98,11 @@
  - LoadBalanced로 노출된 퍼블릭IP로 API 호출
 
 
-### 7. Istio 적용 캡쳐
 
+### 7. Circuit Breaker
 
+ - timeout
+ - ConnectionPool / OutlierDetection
 
 
 
@@ -111,7 +113,11 @@
 
    -- kubectl autoscale deployment order --cpu-percent=10 --min=1 --max=10
    
- - AutoScale적용 후 seige를 통해서 부하 테스트 시  order pod 개수가 증가함
+   -- kubectl exec -it siege -c siege -- /bin/bash
+   -- siege -c20 -t50S -v --content-type "application/json" 'http://student:8080/students POST {"studnetName": "Kim", "classId":1}'
+ 
+ 
+ - AutoScale적용 후 seige를 통해서 부하 테스트 시  student pod 개수가 증가함
 
 ![image](https://user-images.githubusercontent.com/75401961/105174161-7b191d00-5b65-11eb-9f2b-dd00bb92fc12.png)
 
@@ -120,8 +126,12 @@
 ### 9. Readness Proobe
 
  - siege로 계속 호출하는 중에 kubectl set image를 통해서 배포 시 무중단 배포 확인
- 
-  - Readiness 적용 전: 소스 배포시 500 오류 발생
+   -- kubectl exec -it siege -c siege -- /bin/bash
+   -- siege -c20 -t50S -v --content-type "application/json" 'http://52.141.61.243:8080/subjects POST {"className": "Math", "maximumStudent":50}'
+   -- kubectl set image deploy subject subject=skcc19.azurecr.io/subject:v3
+   
+   
+ - Readiness 적용 전: 소스 배포시 500 오류 발생
   
 ![image](https://user-images.githubusercontent.com/75401961/105190860-cccba280-5b79-11eb-9696-50dd8f1513b0.png)
 ![image](https://user-images.githubusercontent.com/75401961/105190041-f20be100-5b78-11eb-837b-aa6fd6fc1868.png)
