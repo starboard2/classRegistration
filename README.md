@@ -238,12 +238,10 @@ product 상품 등록
  
   - Readiness 적용 전: 소스배포시 500 오류 발생
   
-![image](https://user-images.githubusercontent.com/75401920/105004548-7d04b280-5a77-11eb-95cb-d5fe19a40557.png)
-
+![image](https://user-images.githubusercontent.com/75401961/105190041-f20be100-5b78-11eb-837b-aa6fd6fc1868.png)
+![image](https://user-images.githubusercontent.com/75401961/105190107-05b74780-5b79-11eb-9cbd-a02866a2db7f.png)
 
   - 적용 후: 소스배포시 100% 수행됨
   
-![image](https://user-images.githubusercontent.com/75401920/105114273-e1705200-5b09-11eb-9fd8-da7d7b57dc7b.png)
-
-![image](https://user-images.githubusercontent.com/75401920/105004912-f0a6bf80-5a77-11eb-88ee-f0bcd8f67f45.png)
-
+![image](https://user-images.githubusercontent.com/75401961/105190150-123ba000-5b79-11eb-8212-94693df6e340.png)
+![image](https://user-images.githubusercontent.com/75401961/105190241-241d4300-5b79-11eb-8a95-f811fa0e0ab3.png)
