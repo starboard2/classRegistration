@@ -111,11 +111,9 @@
    
  - AutoScale 적용된 모습
 
-   -- kubectl autoscale deployment order --cpu-percent=10 --min=1 --max=10
-   
-   -- kubectl exec -it siege -c siege -- /bin/bash
-   
-   -- siege -c20 -t50S -v --content-type "application/json" 'http://student:8080/students POST {"studnetName": "Kim", "classId":1}'
+    - kubectl autoscale deployment order --cpu-percent=10 --min=1 --max=10
+    - kubectl exec -it siege -c siege -- /bin/bash
+    - siege -c20 -t50S -v --content-type "application/json" 'http://student:8080/students POST {"studnetName": "Kim", "classId":1}'
  
  
  - AutoScale적용 후 seige를 통해서 부하 테스트 시  student pod 개수가 증가함
