@@ -84,7 +84,7 @@
 
 ### 비기능 요구사항에 대한 검증
 
-![image](https://user-images.githubusercontent.com/75401920/104999118-a7eb0880-5a6f-11eb-8de2-bf5926de7436.png)
+![image](https://user-images.githubusercontent.com/75401961/105137793-3ffff500-5b37-11eb-965e-b4992b7e5fa1.png)
 
     - 마이크로 서비스를 넘나드는 시나리오에 대한 트랜잭션 처리
         - 고객 주문시 결제처리:  결제가 완료되지 않은 주문은 절대 받지 않는다는 경영자의 오랜 신념(?) 에 따라, ACID 트랜잭션 적용. 주문완료시 결제처리에 대해서는 Request-Response 방식 처리
@@ -104,11 +104,12 @@
 1,3. 주문->결제->배송->주문 캡쳐
 
 
+![image](https://user-images.githubusercontent.com/75401961/105138224-f19f2600-5b37-11eb-970c-aa55eb18f3f5.png)
 
+ - 수강 신청
 
- - 주문 등록
-
-![image](https://user-images.githubusercontent.com/75401920/105002099-1b8f1480-5a74-11eb-957f-26f060d0bc5f.png)
+![image](https://user-images.githubusercontent.com/75401961/105142752-4e054400-5b3e-11eb-99eb-df3ed4f757ea.png)
+![image](https://user-images.githubusercontent.com/75401961/105143181-d4218a80-5b3e-11eb-91e1-22f385e583db.png)
 
  - 주문 등록 후 주문내역 조회 시 배송상태 변경됨 
 
