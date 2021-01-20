@@ -127,9 +127,9 @@
 ### 9. Readness Proobe
 
  - siege로 계속 호출하는 중에 kubectl set image를 통해서 배포 시 무중단 배포 확인
-   > kubectl exec -it siege -c siege -- /bin/bash
-   > siege -c20 -t50S -v --content-type "application/json" 'http://52.141.61.243:8080/subjects POST {"className": "Math", "maximumStudent":50}'
-   > kubectl set image deploy subject subject=skcc19.azurecr.io/subject:v3
+    - kubectl exec -it siege -c siege -- /bin/bash
+    - siege -c20 -t50S -v --content-type "application/json" 'http://52.141.61.243:8080/subjects POST {"className": "Math", "maximumStudent":50}'
+    - kubectl set image deploy subject subject=skcc19.azurecr.io/subject:v3
    
    
  - Readiness 적용 전: 소스 배포시 500 오류 발생
