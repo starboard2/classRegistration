@@ -244,4 +244,4 @@ product 상품 등록
   - 적용 후: 소스배포시 100% 수행됨
   
 ![image](https://user-images.githubusercontent.com/75401961/105190150-123ba000-5b79-11eb-8212-94693df6e340.png)
-![image](https://user-images.githubusercontent.com/75401961/105190241-241d4300-5b79-11eb-8a95-f811fa0e0ab3.png)
+![image](https://user-images.githubusercontent.com/75401961/105190334-4020e480-5b79-11eb-99c6-29cc2fd4a529.png)
