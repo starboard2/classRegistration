@@ -104,8 +104,11 @@
  - timeout
  - ConnectionPool / OutlierDetection
 
+![image](https://user-images.githubusercontent.com/75401961/105202878-c7745500-5b85-11eb-96e7-beb4523a4501.png)
+![image](https://user-images.githubusercontent.com/75401961/105202599-81b78c80-5b85-11eb-88f1-6887ae46e6e3.png)
 
-
+ - Kiali : Circuit Breaker Display
+![image](https://user-images.githubusercontent.com/75401961/105203836-e6bfb200-5b86-11eb-8f1a-0e692728754f.png)
 
 ### 8. AutoScale
    
