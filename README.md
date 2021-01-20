@@ -36,14 +36,14 @@
 
 ### 기능적/비기능적 요구사항 검증
 
-![image](https://user-images.githubusercontent.com/75401961/105137370-84d75c00-5b36-11eb-83c4-a867ab1b15cc.png)
+![image](https://user-images.githubusercontent.com/75401961/105254636-5fddfa00-5bc5-11eb-8551-b4e960baf5b5.png)
 
     - 학생이 과목을 선택하여 수강 신청한다 (ok)
     - 수강 신청이 완료되면 수강 등록이 이뤄진다. (ok)
     - 수강 신청이 등록되면 수강 가능인원이 감소한다. (ok)
     - 수강 신청이 등록되면 학생의 수강 등록상태가 변경된다. (ok)
 
-![image](https://user-images.githubusercontent.com/75401961/105137421-9ae51c80-5b36-11eb-8dd4-ff8e51066adf.png)
+![image](https://user-images.githubusercontent.com/75401961/105254678-78e6ab00-5bc5-11eb-9810-a456c9bda332.png)
 
     - 학생이 수강을 취소할 수 있다 (ok)
     - 수강 신청이 취소되면 수강 가능인원이 증가한다. (ok)
