@@ -137,6 +137,14 @@ mypage
 Subject
 ![image](https://user-images.githubusercontent.com/75401961/105144211-3e86fa80-5b40-11eb-8d26-edc79700d5cc.png)
 
+Registration 중지
+![image](https://user-images.githubusercontent.com/75401961/105144779-18158f00-5b41-11eb-9f86-8bf0d23439aa.png)
+
+Registration 서비스 재기동
+![image](https://user-images.githubusercontent.com/75401961/105144966-5e6aee00-5b41-11eb-8184-54c5cb3d7c5c.png)
+
+
+
 
 
 
