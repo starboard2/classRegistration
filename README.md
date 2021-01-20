@@ -100,8 +100,8 @@
 
 분석/설계 단계에서 도출된 헥사고날 아키텍처에 따라, 각 BC별로 대변되는 마이크로 서비스들을 스프링부트로 구현하였다. 
 
+- 
 
-1,3. 주문->결제->배송->주문 캡쳐
 
 등록(subject)
 ![image](https://user-images.githubusercontent.com/75401961/105138224-f19f2600-5b37-11eb-970c-aa55eb18f3f5.png)
@@ -191,57 +191,38 @@ product 상품 등록
 
 ### 7. Istio 적용 캡쳐
 
-  - Istio테스트를 위해서 Payment에 sleep 추가
-  
-![image](https://user-images.githubusercontent.com/75401920/105005616-e89b4f80-5a78-11eb-82cb-de53e5881e3f.png)
 
- - istio Virtual Service 생성
 
-![image](https://user-images.githubusercontent.com/75401920/105109571-22fbff80-5b00-11eb-9690-74b751e435a6.png)
 
-![image](https://user-images.githubusercontent.com/75401920/105109657-5179da80-5b00-11eb-9e87-637a565c75ad.png)
 
- - 적용 후 siege로 부하 테스트
-  3초 넘어가는 요청건은 실패로 처리 됨
-
-![image](https://user-images.githubusercontent.com/75401920/105109994-07452900-5b01-11eb-857b-385a5960fecb.png)
-
- 추가 적용
- - payments 서비스에 Istio 적용
-   
-![image](https://user-images.githubusercontent.com/75401920/105006822-7f1c4080-5a7a-11eb-9191-db35233773d3.png)
-
- - Istio 적용 후 seige 실행 시 대략 50%정도 확률로 CB가 열려서 처리됨
-
-![image](https://user-images.githubusercontent.com/75401920/105006958-b2f76600-5a7a-11eb-99f3-c8b81a4ec270.png)
 
 ### 8. AutoScale
-
    
  - AutoScale 적용된 모습
 
    kubectl autoscale deployment order --cpu-percent=10 --min=1 --max=10
+ - AutoScale적용 후 seige를 통해서 부하 테스트 시  order pod 개수가 증가함
 
 ![image](https://user-images.githubusercontent.com/75401961/105156323-063ae880-5b4f-11eb-9db9-1de6b8eab9c7.png)
 ![image](https://user-images.githubusercontent.com/75401961/105174161-7b191d00-5b65-11eb-9f2b-dd00bb92fc12.png)
 
- - AutoScale적용 후 seige를 통해서 부하 테스트 시  order pod 개수가 증가함
+
+
 
 
 
 
 ### 9. Readness Proobe
 
-
-
-   siege로 계속 호출하는 중에 kubectl set image를 통해서 배포 시 무중단 배포 확인
+siege로 계속 호출하는 중에 kubectl set image를 통해서 배포 시 무중단 배포 확인
  
-  - Readiness 적용 전: 소스배포시 500 오류 발생
-  
+  - Readiness 적용 전: 소스 배포시 500 오류 발생
+![image](https://user-images.githubusercontent.com/75401961/105190860-cccba280-5b79-11eb-9696-50dd8f1513b0.png)
 ![image](https://user-images.githubusercontent.com/75401961/105190041-f20be100-5b78-11eb-837b-aa6fd6fc1868.png)
 ![image](https://user-images.githubusercontent.com/75401961/105190107-05b74780-5b79-11eb-9cbd-a02866a2db7f.png)
 
   - 적용 후: 소스배포시 100% 수행됨
   
+![image](https://user-images.githubusercontent.com/75401961/105190771-b02f6a80-5b79-11eb-8e1c-6733d6a80f4d.png)
 ![image](https://user-images.githubusercontent.com/75401961/105190150-123ba000-5b79-11eb-8212-94693df6e340.png)
 ![image](https://user-images.githubusercontent.com/75401961/105190334-4020e480-5b79-11eb-99c6-29cc2fd4a529.png)
