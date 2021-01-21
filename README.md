@@ -153,3 +153,15 @@
 ![image](https://user-images.githubusercontent.com/75401961/105190771-b02f6a80-5b79-11eb-8e1c-6733d6a80f4d.png)
 ![image](https://user-images.githubusercontent.com/75401961/105190150-123ba000-5b79-11eb-8212-94693df6e340.png)
 ![image](https://user-images.githubusercontent.com/75401961/105190334-4020e480-5b79-11eb-99c6-29cc2fd4a529.png)
+
+
+
+### 10. liveness Proobe
+
+- 적용 후: 소스배포시 100% 수행됨
+   -- initialDelaySeconds : 컨테이너 준비 후 Probe 실행까지의 대기시간
+   -- periodSeconds : Probe 체크를 반복할 시간
+   
+![image](https://user-images.githubusercontent.com/75401961/105257223-ac780400-5bca-11eb-84db-978525d4f991.png)
+![image](https://user-images.githubusercontent.com/75401961/105257060-599e4c80-5bca-11eb-8954-06a2df212044.png)
+![image](https://user-images.githubusercontent.com/75401961/105257080-6327b480-5bca-11eb-828c-10814c1dc1a5.png)
