@@ -132,7 +132,7 @@
 
 
 
-### 9. Readness Proobe
+### 9. Readiness Proobe
 
  - 부하테스트 툴(Siege)로 계속 호출하는 중에 kubectl set image를 통해서 배포 시 무중단 배포 확인
     - kubectl exec -it siege -c siege -- /bin/bash
@@ -147,6 +147,8 @@
 ![image](https://user-images.githubusercontent.com/75401961/105190107-05b74780-5b79-11eb-9cbd-a02866a2db7f.png)
 
   - 적용 후: 소스배포시 100% 수행됨
+   -- initialDelaySeconds : 컨테이너 준비 후 Probe 실행까지의 대기시간
+   -- periodSeconds : Probe 체크를 반복할 시간
   
 ![image](https://user-images.githubusercontent.com/75401961/105190771-b02f6a80-5b79-11eb-8e1c-6733d6a80f4d.png)
 ![image](https://user-images.githubusercontent.com/75401961/105190150-123ba000-5b79-11eb-8212-94693df6e340.png)
