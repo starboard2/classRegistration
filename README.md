@@ -108,6 +108,10 @@
 ### 7. Circuit Breaker
 
  - timeout
+ ![image](https://user-images.githubusercontent.com/75401961/105259263-d59a9380-5bce-11eb-8b38-4af6b5eb50ca.png)
+ ![image](https://user-images.githubusercontent.com/75401961/105259336-efd47180-5bce-11eb-9a30-5df71033ed62.png)
+ ![image](https://user-images.githubusercontent.com/75401961/105259385-07abf580-5bcf-11eb-8698-447ebd0ff9e5.png)
+ 
  - ConnectionPool / OutlierDetection
 
 ![image](https://user-images.githubusercontent.com/75401961/105202878-c7745500-5b85-11eb-96e7-beb4523a4501.png)
