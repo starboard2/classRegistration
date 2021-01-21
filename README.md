@@ -147,8 +147,8 @@
 ![image](https://user-images.githubusercontent.com/75401961/105190107-05b74780-5b79-11eb-9cbd-a02866a2db7f.png)
 
   - 적용 후: 소스배포시 100% 수행됨
-   -- initialDelaySeconds : 컨테이너 준비 후 Probe 실행까지의 대기시간
-   -- periodSeconds : Probe 체크를 반복할 시간
+   - initialDelaySeconds : 컨테이너 준비 후 Probe 실행까지의 대기시간
+   - periodSeconds : Probe 체크를 반복할 시간
   
 ![image](https://user-images.githubusercontent.com/75401961/105190771-b02f6a80-5b79-11eb-8e1c-6733d6a80f4d.png)
 ![image](https://user-images.githubusercontent.com/75401961/105190150-123ba000-5b79-11eb-8212-94693df6e340.png)
@@ -158,9 +158,9 @@
 
 ### 10. liveness Proobe
 
-- 적용 후: 소스배포시 100% 수행됨
-   -- initialDelaySeconds : 컨테이너 준비 후 Probe 실행까지의 대기시간
-   -- periodSeconds : Probe 체크를 반복할 시간
+- 비정상적 상황을 연출하기 위해 임의로 Port 변경
+- 적용 후: 컨테이너가 Running 상태로 보이나, Liveness Probe 실패로 계속 재시작
+- kubectl describe ~~~ : 현재 실패 메시지를 확인 할 수 있음
    
 ![image](https://user-images.githubusercontent.com/75401961/105257223-ac780400-5bca-11eb-84db-978525d4f991.png)
 ![image](https://user-images.githubusercontent.com/75401961/105257060-599e4c80-5bca-11eb-8954-06a2df212044.png)
